@@ -1,0 +1,594 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #0b409c;
+    font-family: "Montserrat", sans-serif;
+}
+
+.section-content {
+    width: calc(100% - 80px);
+    margin-left: 80px;
+    margin-right: 0;
+    position: relative;
+}
+
+.section {
+    padding: 50px 70px 50px 0;
+}
+
+.title-primary {
+    color: #ffc93c;
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.button-primary {
+    background-color: #ffc93c;
+    color: #f2f7ff;
+    padding: 10px 2rem;
+}
+
+.button-primary:hover {
+    background-color: #f2f7ff;
+    color: #ffc93c;
+    border: 1px solid #ffc93c;
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+    color: #f2f7ff;
+}
+
+.logo {
+    position: absolute;
+    height: 40px;
+    opacity: 0.5;
+}
+
+.logo-1,
+.logo-2 {
+    left: -5%;
+    margin: 2rem;
+}
+
+.logo-2 {
+    top: -30%;
+}
+
+.logo-1 {
+    bottom: -20%;
+}
+
+#home .logo-h1-s,
+#home .logo-h1-e {
+    height: 50px;
+    left: 0%;
+}
+
+.logo-h1-e {
+    bottom: 30%;
+}
+
+.logo-h1-s {
+    top: 0%;
+}
+
+/* home */
+
+#home {
+    margin-top: 150px;
+}
+
+#home .hero {
+    position: relative;
+}
+
+#home .hero h1 {
+    font-size: 5em;
+    font-weight: 700;
+    text-shadow: 5px 3px rgba(0, 0, 0, 0.2);
+}
+
+#home .hero p {
+    margin: 3rem 0;
+}
+
+#home .hero .text-hi {
+    color: #ffc93c;
+}
+
+#home .hero span {
+    color: #10316b;
+}
+
+#home .hero .bg-logo {
+    position: absolute;
+    right: 5%;
+    top: -55%;
+    bottom: 0;
+    z-index: -1;
+    transform: rotate(25deg);
+    color: #0081c9;
+    height: 550px;
+    margin: 1rem;
+    opacity: 0.6;
+}
+
+/* home end */
+
+/*about */
+
+/* logo bg */
+
+.content-about .logo,
+.content-skill .logo {
+    position: absolute;
+    height: 30px;
+    opacity: 0.5;
+}
+
+.content-about .logo-2,
+.content-skill .logo-2 {
+    top: -5%;
+    left: -10%;
+    margin: 2rem;
+}
+
+.content-about .logo-1,
+.content-skill .logo-1 {
+    bottom: 0%;
+    left: -10%;
+    margin: 2rem;
+}
+
+#about .logo-h1-s,
+#about .logo-h1-e {
+    height: 40px;
+    left: -5%;
+}
+
+#about .logo-h1-s {
+    top: 3%;
+}
+
+#about .logo-h1-e {
+    top: 16%;
+}
+
+#my-skill .logo-h1-s,
+#my-skill .logo-h1-e {
+    height: 40px;
+    margin: 0;
+    left: -5%;
+}
+
+#my-skill .logo-h1-e {
+    top: 8%;
+}
+
+#my-skill .logo-h1-s {
+    top: 22%;
+}
+
+/* akhir logo bg */
+
+#about .hero-img {
+    display: block;
+    width: 80%;
+    margin: auto auto;
+    border-radius: 50%;
+}
+
+.content-about,
+.content-skill {
+    padding-bottom: 10rem;
+}
+
+.content-skill {
+    padding: 2rem 0 10rem;
+}
+
+#about p {
+    font-size: 20px;
+    line-height: 1.8;
+    padding: 3rem 0;
+}
+
+#my-skill h2 {
+    font-size: 3em;
+}
+
+#my-skill h3 {
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+}
+
+#my-skill .skills {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 40px;
+}
+
+#my-skill .skills .name-skill {
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+    line-height: 0.5;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    width: 120px;
+}
+
+#my-skill .skills .name-skill h3 {
+    font-weight: 700;
+}
+
+#my-skill .skills .name-skill h4 {
+    font-weight: 400;
+}
+
+#my-skill .skills .name-skill p {
+    font-weight: 100;
+    font-family: "Poppins", sans-serif;
+}
+
+/* project */
+
+.content-project .logo {
+    position: absolute;
+    height: 30px;
+    opacity: 0.5;
+}
+
+.content-project .logo-2,
+.content-project .logo-1 {
+    left: -10%;
+}
+
+.content-project .logo-2 {
+    top: -5%;
+}
+
+.content-project .logo-1 {
+    bottom: -5%;
+}
+
+#project .logo-h1-s,
+#project .logo-h1-e {
+    height: 40px;
+    left: -5%;
+}
+
+#project .logo-h1-s {
+    top: 3%;
+}
+
+#project .logo-h1-e {
+    top: 16%;
+}
+
+#project .card {
+    background-color: #f2f7ff;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 3px 3px 8px 0 rgba(255, 255, 255, 0.2);
+    width: 100%;
+}
+
+#project .card .img-project {
+    height: 250px;
+    object-fit: cover;
+}
+
+#project .card .card-body .card-title {
+    font-weight: 700;
+    text-align: left;
+}
+
+#project .card .card-body .card-text {
+    color: #000;
+    text-align: justify;
+}
+
+#project .card .card-body .button-primary {
+    border-radius: 30px;
+}
+
+/* akhir project */
+
+/* #contact {
+	padding-bottom: 150px;
+} */
+
+.content-contact {
+    padding: 0;
+}
+
+#contact .contact-form .form-group .form-control {
+    padding: 1rem;
+}
+
+#contact .contact-form .form-group {
+    margin: 0 0 0.5rem;
+}
+
+.contact-links {
+    padding-left: 0;
+    margin: 0;
+}
+
+.contact-links li {
+    list-style: none;
+}
+
+.contact-links li a {
+    text-decoration: none;
+    color: #f2f7ff;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 360px;
+    width: 100%;
+}
+
+/* responsive */
+
+@media (max-width: 1199.98px) {
+    /* about */
+
+    #about .hero-img {
+        display: block;
+        width: 100%;
+        margin: auto auto;
+        border-radius: 50%;
+    }
+
+    #about p {
+        font-size: 16px;
+    }
+
+    /* projects */
+
+    #project .logo-h1-s {
+        top: 2%;
+    }
+
+    #project .logo-h1-e {
+        top: 10%;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .section {
+        padding: 50px 0;
+    }
+
+    /* home */
+
+    #home {
+        margin-top: 120px;
+        padding: 50px 0;
+    }
+
+    #home .logo-h1-s,
+    #home .logo-h1-e {
+        height: 40px;
+        left: 5%;
+    }
+
+    .logo-h1-e {
+        bottom: 38%;
+    }
+
+    #home .hero .bg-logo {
+        height: 500px;
+        right: -20%;
+    }
+
+    #home .hero {
+        justify-content: center;
+    }
+
+    #home .hero h1 {
+        font-size: 4em;
+    }
+
+    /*#about */
+
+    #about {
+        padding: 0 2rem;
+    }
+
+    #about h2,
+    #my-skill h2 {
+        text-align: center;
+    }
+
+    #about .logo-h1-s,
+    #about .logo-h1-e {
+        height: 40px;
+        top: 2%;
+    }
+
+    #about .logo-h1-e {
+        left: 85%;
+    }
+
+    #about .logo-h1-s {
+        left: 10%;
+    }
+
+    #my-skill .logo-h1-s,
+    #my-skill .logo-h1-e {
+        height: 40px;
+        top: 13%;
+    }
+
+    #my-skill .logo-h1-e {
+        left: 75%;
+    }
+
+    #my-skill .logo-h1-s {
+        left: 15%;
+    }
+
+    #my-skill .skills {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .section-content {
+        width: calc(100% - 0px);
+        margin-left: 0px;
+    }
+
+    .section {
+        padding: 50px 0;
+    }
+
+    #home .hero h1 {
+        font-size: 3.5em;
+    }
+
+    #home .hero .bg-logo {
+        top: -10%;
+    }
+
+    #home {
+        padding: 4rem 0;
+        margin-top: 100px;
+    }
+
+    #home .hero {
+        padding: 1rem 0;
+    }
+
+    #home .hero .bg-logo {
+        max-width: 100%;
+        height: 300px;
+        top: -20%;
+        right: -10%;
+    }
+
+    .logo-1,
+    .logo-2 {
+        height: 30px;
+        left: -4%;
+        margin: 1rem;
+    }
+
+    .logo-2 {
+        top: -10%;
+    }
+
+    .logo-1 {
+        bottom: 0%;
+    }
+
+    #home .logo-h1-s,
+    #home .logo-h1-e {
+        height: 40px;
+        left: 0%;
+    }
+
+    .logo-h1-e {
+        bottom: 42%;
+    }
+
+    .logo-h1-s {
+        top: 10%;
+    }
+
+    /*#about */
+
+    #about {
+        padding: 0;
+        position: static;
+    }
+
+    #about h1 {
+        font-size: 3em;
+    }
+
+    #my-skill .skills {
+        padding: 3rem;
+    }
+
+    #my-skill .logo-h1-e {
+        left: 80%;
+    }
+
+    /* project */
+    .content-project {
+        padding: 1rem;
+    }
+
+    #project .card .card-body .button-primary {
+        width: 100%;
+    }
+}
+
+@media (max-width: 636px) {
+    /* home */
+    #home {
+        margin-top: 100px;
+    }
+
+    #home .hero {
+        text-align: center;
+        justify-content: center;
+    }
+
+    #home .hero h1 {
+        text-align: center;
+    }
+
+    #home .hero .bg-logo {
+        transform: rotate(0deg);
+        max-width: 100%;
+        height: 200px;
+        top: 70%;
+        right: 0%;
+    }
+
+    .logo-h1-e {
+        left: 80%;
+        bottom: 45%;
+    }
+
+    /*#about */
+
+    .content-about {
+        margin-top: 5rem;
+    }
+
+    #about p {
+        padding: 3rem;
+    }
+
+    #about h2,
+    #my-skill h2 {
+        font-size: 2.3em;
+    }
+}
+
+@media (max-width: 464px) {
+    /*#about */
+    #about h1 {
+        font-size: 2em;
+    }
+}
